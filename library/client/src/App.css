@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Select styles */
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Book status styles */
+.book-status {
+  color: #28a745; /* Green color for available books */
+}
+
+/* Taken book status styles */
+.taken-book-status {
+  color: #dc3545; /* Red color for taken books */
+}
